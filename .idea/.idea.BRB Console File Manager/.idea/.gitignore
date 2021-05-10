@@ -1,0 +1,11 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/modules.xml
+/contentModel.xml
+/projectSettingsUpdater.xml
+/.idea.BRB Console File Manager.iml
+# Datasource local storage ignored files
+/../../../../../../../../../../../../:\Users\alexeyz\Desktop\Обучение\Факультет разработки на C#\3 - Введение в C#\Курсовой проект\BRB Console File Manager\.idea\.idea.BRB Console File Manager\.idea/dataSources/
+/dataSources.local.xml

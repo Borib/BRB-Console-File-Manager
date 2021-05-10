@@ -1,0 +1,6 @@
+C:\Users\alexeyz\Desktop\Обучение\Факультет разработки на C#\3 - Введение в C#\Курсовой проект\BRB Console File Manager\BRB Console File Manager\bin\Debug\BRB_Console_File_Manager.exe
+C:\Users\alexeyz\Desktop\Обучение\Факультет разработки на C#\3 - Введение в C#\Курсовой проект\BRB Console File Manager\BRB Console File Manager\bin\Debug\BRB_Console_File_Manager.pdb
+C:\Users\alexeyz\Desktop\Обучение\Факультет разработки на C#\3 - Введение в C#\Курсовой проект\BRB Console File Manager\BRB Console File Manager\obj\Debug\BRB Console File Manager.csprojAssemblyReference.cache
+C:\Users\alexeyz\Desktop\Обучение\Факультет разработки на C#\3 - Введение в C#\Курсовой проект\BRB Console File Manager\BRB Console File Manager\obj\Debug\BRB Console File Manager.csproj.CoreCompileInputs.cache
+C:\Users\alexeyz\Desktop\Обучение\Факультет разработки на C#\3 - Введение в C#\Курсовой проект\BRB Console File Manager\BRB Console File Manager\obj\Debug\BRB_Console_File_Manager.exe
+C:\Users\alexeyz\Desktop\Обучение\Факультет разработки на C#\3 - Введение в C#\Курсовой проект\BRB Console File Manager\BRB Console File Manager\obj\Debug\BRB_Console_File_Manager.pdb
