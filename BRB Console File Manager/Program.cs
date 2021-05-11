@@ -153,14 +153,32 @@ namespace BRB_Console_File_Manager
             }
             else if (cmd.ToLower().StartsWith("del "))
             {
-                cmd = cmd.Remove(0, 3).ToLower();
-                if (Directory.Exists(CurrentDir + cmd))
+                cmd = cmd.Remove(0, 4).ToLower();
+                if (Directory.Exists(CurrentDir + "\\" + cmd))
                 {
-                    
+                    try
+                    {
+                        Directory.Delete(CurrentDir + "\\" + cmd, true);                        
+                        ParseCommand($"cd {CurrentDir}");
+                        CFMF.SetTextIntoOutputArea($"Папка {cmd} удалёна.");
+                    }
+                    catch (Exception ex)
+                    {
+                        CFMF.SetTextIntoOutputArea($"Не удалось удалить папку {cmd}.{Environment.NewLine}Описание проблемы:{Environment.NewLine}{ex.Message}");
+                    }
                 }
                 else if (File.Exists(CurrentDir + "\\" + cmd))
                 {
-                    
+                    try
+                    {
+                        File.Delete(CurrentDir + "\\" + cmd);                        
+                        ParseCommand($"cd {CurrentDir}");
+                        CFMF.SetTextIntoOutputArea($"Файл {cmd} удалён.");
+                    }
+                    catch(Exception ex)
+                    {
+                        CFMF.SetTextIntoOutputArea($"Не удалось удалить файл {cmd}.{Environment.NewLine}Описание проблемы:{Environment.NewLine}{ex.Message}");
+                    }
                 }
                 else
                 {
@@ -169,8 +187,8 @@ namespace BRB_Console_File_Manager
             }
             else if (cmd.ToLower().StartsWith("copy "))
             {
-                cmd = cmd.Remove(0, 4).ToLower();
-                if (Directory.Exists(CurrentDir + cmd))
+                cmd = cmd.Remove(0, 5).ToLower();
+                if (Directory.Exists(CurrentDir + "\\" + cmd))
                 {
 
                 }
