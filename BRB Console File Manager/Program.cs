@@ -188,18 +188,7 @@ namespace BRB_Console_File_Manager
             else if (cmd.ToLower().StartsWith("copy "))
             {
                 cmd = cmd.Remove(0, 5).ToLower();
-                if (Directory.Exists(CurrentDir + "\\" + cmd))
-                {
-
-                }
-                else if (File.Exists(CurrentDir + "\\" + cmd))
-                {
-
-                }
-                else
-                {
-                    CFMF.SetTextIntoOutputArea($"Указанный файл или папка ({cmd}) не существует.");
-                }
+                
             }
             else
             {
